@@ -42,7 +42,7 @@ L.tileLayer(tileURL).addTo(map);
 //Last position marker
 var penguinMarker = L.icon({
     iconUrl: 'marker.png',
-    iconSize: [35,39.5],
+    iconSize: [35,50],
     shadowSize:   [50, 64],
     iconAnchor:   [20,40],
     shadowAnchor: [4, 62],
