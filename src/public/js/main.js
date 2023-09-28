@@ -104,7 +104,7 @@ function centerMap() {
 
 button = document.getElementById('historics');
 button.addEventListener("click", async (event) =>{
-    const data = {
+    var data = {
         sdate: start_date.value,
         stime: start_time.value,
         edate: end_date.value,
